@@ -15,16 +15,26 @@ public class TwoSum {
     }
     static String greedyApproach(int[] nums, int target){
         Arrays.sort(nums);
-        for(int i=0,j=nums.length-1;i<j;i++,j--){
-            
+        int i=0,j=nums.length-1;
+        while(i<j){
+            if(nums[i]+nums[j] == target){
+                return "YES";
+            }
+            else if(nums[i]+nums[j] > target){
+                j--;
+            }
+            else i++;
         }
+
+        return "NO";
     }
 
     public static void main(String args[]){
-        int arr[] = twoSum(new int[]{2,5,7,11}, 12);
-        for(int val:arr){
-            System.out.println(val+" ");
-        }
+        String s = greedyApproach(new int[]{2,5,7,11}, 7);
+        System.out.println(s);
+        // for(int val:arr){
+            // System.out.println(val+" ");
+        // }
     }
 }    
 
