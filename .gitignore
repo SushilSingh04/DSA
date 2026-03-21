@@ -1,3 +1,3 @@
-*.exe
-*.class
-DSA.code-workspace
+./__pycache__
+./.cph
+./.vscode

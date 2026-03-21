@@ -1,0 +1,211 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "removeOuterParens",
+            "request": "launch",
+            "mainClass": "removeOuterParens",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "alternatePosNeg",
+            "request": "launch",
+            "mainClass": "alternatePosNeg",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "kthMissingNumber",
+            "request": "launch",
+            "mainClass": "Binary_search.kthMissingNumber",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "leftShiftbyK",
+            "request": "launch",
+            "mainClass": "Summer_2025.Arrays.leftShiftbyK",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "leftShiftbyK",
+            "request": "launch",
+            "mainClass": "leftShiftbyK",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "num_of_bouqets",
+            "request": "launch",
+            "mainClass": "Binary_search.num_of_bouqets",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "missRepeat",
+            "request": "launch",
+            "mainClass": "missRepeat",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "mergeOverlappingSubarrays",
+            "request": "launch",
+            "mainClass": "mergeOverlappingSubarrays",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "largestSubarrayWith0Sum",
+            "request": "launch",
+            "mainClass": "largestSubarrayWith0Sum",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "fourSum",
+            "request": "launch",
+            "mainClass": "fourSum",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "threeSum",
+            "request": "launch",
+            "mainClass": "threeSum",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "twoSum",
+            "request": "launch",
+            "mainClass": "twoSum",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "majorityElement3",
+            "request": "launch",
+            "mainClass": "majorityElement3",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "pascalTriangle",
+            "request": "launch",
+            "mainClass": "pascalTriangle",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "spiralFashion",
+            "request": "launch",
+            "mainClass": "spiralFashion",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "rotateArray90",
+            "request": "launch",
+            "mainClass": "rotateArray90",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "setMatrixZeroes",
+            "request": "launch",
+            "mainClass": "setMatrixZeroes",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "longestConsecutive",
+            "request": "launch",
+            "mainClass": "longestConsecutive",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "fg",
+            "request": "launch",
+            "mainClass": "fg",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "Fg",
+            "request": "launch",
+            "mainClass": "Fg",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "rotateArray",
+            "request": "launch",
+            "mainClass": "Arrays.rotateArray",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "findMaxSubarray",
+            "request": "launch",
+            "mainClass": "findMaxSubarray",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "maxSubarray",
+            "request": "launch",
+            "mainClass": "maxSubarray",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "maxSubarrayv2",
+            "request": "launch",
+            "mainClass": "maxSubarrayv2",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "dutchNationalFlagAlgorithm",
+            "request": "launch",
+            "mainClass": "dutchNationalFlagAlgorithm",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "numOfSubarraysWithSumK",
+            "request": "launch",
+            "mainClass": "numOfSubarraysWithSumK",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "longestSubarrayWithSumK",
+            "request": "launch",
+            "mainClass": "longestSubarrayWithSumK",
+            "projectName": "DSA_cad976ff"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DSA_cad976ff"
+        }
+    ]
+}

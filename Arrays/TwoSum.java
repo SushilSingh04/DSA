@@ -1,11 +1,19 @@
-import java.util.Arrays;
-import java.util.HashMap;
+import java.util.*;
 
-public class TwoSum {
-    static int[] twoSum(int[] nums, int target) {
+public class twoSum {
+    public static void main(String[] args) {
+        int target = 10;
+        int[] arr = {2,4,9,1,8,2};
+        int [] sol = findTwoSum(arr, target);
+        for(int val: sol){
+            System.out.print(val+" ");
+        }
+    }
+
+    public static int[] findTwoSum(int[] nums, int target) {
+        // HashMap is used to spped up the search.
         HashMap<Integer,Integer> hm = new HashMap<>();
-        int i=0;
-        for(; i<nums.length;i++){
+        for(int i=0; i<nums.length;i++){
             if(hm.containsKey(target-nums[i])){
                 return new int[]{hm.get(target-nums[i]),i};
             }
@@ -13,28 +21,4 @@ public class TwoSum {
         }
         return new int[]{};
     }
-    static String greedyApproach(int[] nums, int target){
-        Arrays.sort(nums);
-        int i=0,j=nums.length-1;
-        while(i<j){
-            if(nums[i]+nums[j] == target){
-                return "YES";
-            }
-            else if(nums[i]+nums[j] > target){
-                j--;
-            }
-            else i++;
-        }
-
-        return "NO";
-    }
-
-    public static void main(String args[]){
-        String s = greedyApproach(new int[]{2,5,7,11}, 7);
-        System.out.println(s);
-        // for(int val:arr){
-            // System.out.println(val+" ");
-        // }
-    }
-}    
-
+}
