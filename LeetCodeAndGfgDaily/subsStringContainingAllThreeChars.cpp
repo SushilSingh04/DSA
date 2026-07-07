@@ -16,10 +16,6 @@ public:
                 l++;
             }
         }
-
         return cntSubStrings;
-
-
-
     }
 };
