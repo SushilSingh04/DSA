@@ -6,6 +6,7 @@ class Solution:
         return self.solve(xs, ys, mat, xd, yd, visited)
         
     def solve(self, i, j, mat, xd, yd, visited):
+        n, m = len(mat), len(mat[0])
         if i == xd and j == yd:
             return 0
         dirs = [(-1,0), (1,0), (0,1), (0,-1)]
