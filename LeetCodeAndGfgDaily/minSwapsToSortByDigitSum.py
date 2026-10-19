@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def minSwaps(self, nums: List[int]) -> int:
         digit_sum = lambda x: sum(map(int, str(x)))
