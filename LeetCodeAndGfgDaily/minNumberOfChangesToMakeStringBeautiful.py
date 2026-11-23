@@ -7,3 +7,4 @@ class Solution:
             i+=2
         
         return cnt
+    
