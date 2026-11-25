@@ -6,7 +6,7 @@ class Solution:
         maxLen = 2
         i = 0
         prod = nums[0]*nums[1]
-        if gcd(nums[0], nums[1]) > 1:
+        if math.gcd(nums[0], nums[1]) > 1:
             i = 1
             prod = nums[1]
             
