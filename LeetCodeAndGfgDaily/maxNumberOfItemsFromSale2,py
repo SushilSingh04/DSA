@@ -1,0 +1,42 @@
+from typing import List
+
+class Solution:
+    def maximumSaleItems(self, items: List[List[int]], budget: int) -> int:
+        n = len(items)
+        MAX = 10**5+1
+        free_copies = [0]*MAX
+        freq = [0]*MAX
+
+        for i in range(n):
+            factor_i = items[i][0]
+            freq[factor_i] += 1
+        
+        factors = set(x[0] for x in items)
+
+        for i in factors:
+            cnt = 0
+            for j in range(i, MAX, i):
+                cnt += freq[j]
+            free_copies[i] = cnt-1
+        
+        for item in items:
+            item.append(free_copies[item[0]])
+
+        items.sort(key=lambda x: x[1])
+        lowest = items[0][1]
+        ans = 0
+
+        # print(items)
+        for _, price, copies in items:
+            if price >= 2*lowest:
+                break
+            
+            cnt = min(copies, budget//price)
+            budget -= cnt*price
+            # print(cnt, budget)
+            ans += 2*cnt
+        
+        return ans + budget//lowest
+
+        
+        
